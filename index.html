@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <title>Explore Junto</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <main>
+    <div id="bgIMG">
+      <img src="assets/mobileIMG.png" alt="Desenho de um astronauta entre luas coloridas">
+    </div>
+    <h1>Explore sem limites</h1>
+    <p>Porque o aprendizado é contínuo</p>
+    <img id="arrowDown" src="assets/arrowDown.svg">
+  </main>
+
+  <nav>
+    <ul>
+      <a href="#">
+      <li>
+        <img class="moon" src="assets/yellowMoon.png" alt="Desenho de uma Lua Amarela">
+        <h1>Não pare nunca</h1>
+        <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
+      </li>
+      </a>
+      <a href="#">
+      <li>
+        <img class="moon" src="assets/blueMoon.png" alt="Desenho de uma Lua Azul">
+        <h1>Só volta</h1>
+        <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
+      </li>
+      </a>
+      <a href="#">
+      <li>
+        <img class="moon" src="assets/redMoon.png" alt="Desenho de uma Lua Vermelha">
+        <h1>Siga seu ritmo</h1>
+        <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
+      </li>
+      </a>
+    </ul>
+  </nav>
+
+  <div id="contact">
+    <fieldset>
+      <legend><h1>Entre em contato</h1></legend>
+      
+      <div         class = "fieldsetWrapper">
+          <div class = "inputWrapper">
+            <input class="contactSVG" type  = "name" id     = "jobSearch" placeholder = "Seu nome"/>
+          </div>
+        
+          <div   class = "inputWrapper">
+            <input class="emailSVG" type  = "email" id = "email" placeholder = "Email"/>
+          </div>
+
+          <div   class = "inputWrapper">
+            <textarea style="resize: none" id = "message" name="message" placeholder="Digite sua mensagem aqui..." rows="4"></textarea>
+          </div>
+        </div>
+        <input class = "button" type = "submit" value = "Enviar mensagem" form  = "form"/>
+    </fieldset>
+  </div>
+
+  <footer>
+    <p>© 2023 - Rocketseat Explorer</p>
+  </footer>
+</body>
+</html>

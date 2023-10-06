@@ -161,16 +161,14 @@ nav ul li p {
   gap: 2.4rem;
 }
 
-#contact .inputWrapper .contactSVG{
-  background-image: url(/assets/contactIMG.png);
-  background-repeat: no-repeat;
-  background-position: top 1.2rem left 1.4rem;
+#contact .inputWrapper {
+  position: relative;
 }
 
-#contact .inputWrapper .emailSVG{
-  background-image: url(/assets/emailIMG.png);
-  background-repeat: no-repeat;
-  background-position: top 1.2rem left 1.4rem;
+#contact .inputWrapper label {
+  position: absolute;
+  left: 1.7rem;
+  top: 1.1rem;
 }
 
 #contact .fieldsetWrapper .inputWrapper input, textarea{
